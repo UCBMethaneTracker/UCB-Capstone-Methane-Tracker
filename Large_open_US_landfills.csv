@@ -1,0 +1,196 @@
+Landfill_ID,Landfill_Name,Landfill_Alias,State,City,County,Zipcode,Latitude,Longitude,Ownership_Type,Year_opened,Landfill_Closure_Year,Status,Current_Area,Current_Depth,Design_Capacity_tons,Waste_in_Place_tons,Annual_waste_acceptance_rate_tons
+352,Puente Hills LF,Puente Hills (PERG); San Gabriel Valley Dump,CA,Whittier,Los Angeles,90601.0,34.02033,-118.00603999999998,Public,1957.0,2013.0,Closed,590.0,229.5,142400000.0,142250454.0,2135318.0
+966,Fresh Kills SLF,,NY,Staten Island,Richmond,10312.0,40.571999999999996,-74.188,Public,1948.0,2002.0,Closed,1416.0,,135450945.0,135450945.0,1014300.0
+1465,McCarty Road LF,,TX,Houston,Harris,77078.0,29.827501,-95.24333399999999,Private,1972.0,2031.0,Open,388.0,,123783905.0,97983501.0,1834618.0
+232,Olinda Alpha SLF,Olinda SLF,CA,Brea,Orange,92823.0,33.933609999999994,-117.84361000000001,Public,1960.0,2021.0,Open,420.0,235.0,96736556.0,86320460.0,2331531.0
+930,Apex Regional LF,,NV,Las Vegas,Clark,89165.0,36.374,-114.86518000000001,Private,1993.0,2365.0,Open,297.0,300.0,994920296.0,72848073.0,2804493.0
+397,Monarch Hill Landfill,Central Disposal SLF; Mount Trashmore,FL,Pompano Beach,Broward,33073.0,26.283,-80.161,Private,1965.0,2031.0,Open,314.2,137.0,84293492.0,72447825.0,1673839.0
+1718,Denver Arapahoe Disposal Site (DADS),Lowry LF,CO,Aurora,Arapahoe,80018.0,39.66,-104.69,Public,1966.0,2150.0,Open,677.0,159.0,389072613.0,71470792.0,2393438.0
+1461,DFW Recycling & Disposal Facility,Dallas-Fort Worth LF,TX,Lewisville,Denton,75057.0,33.01615,-96.96316,Private,1972.0,2023.0,Open,296.0,73.0,,70947369.0,1344339.0
+1879,Arbor Hills Landfill Inc.,Onyx Arbor Hills East and West,MI,Northville,Washtenaw,48168.0,42.40684,-83.55579,Private,1970.0,2028.0,Open,263.0,,95366291.0,66455203.0,2709453.0
+1249,GROWS Landfill,GROWS North,PA,Morrisville,Bucks,19067.0,40.159344,-74.77669499999999,Private,1970.0,2028.0,Open,,,105107575.0,65613970.0,4071058.0
+286,Sunshine Canyon Landfill,North Valley Landfill,CA,Sylmar,Los Angeles,91342.0,34.32352,-118.50294,Private,1955.0,2037.0,Open,350.6,,109393338.0,65207800.0,2307000.0
+39,Altamont Landfill & Resource Recovery Facility,,CA,Livermore,Alameda,94551.0,37.75,-121.65666999999999,Private,1980.0,2052.0,Open,237.3,175.0,131857568.0,63798959.0,1574396.0
+1177,"Rumpke SLF, Inc.",Cincinnati Regional Refuse Facility; Hamilton County-Cincinnati LF,OH,Cincinnati,Hamilton,45251.0,39.2745,-84.59822,Private,1945.0,2053.0,Open,,,165063026.0,63285314.0,2396634.0
+1241,Columbia Ridge LF,,OR,Arlington,Gilliam,97812.0,45.639234,-120.21723700000001,Private,1990.0,2131.0,Open,273.5,250.0,391644390.0,58676037.0,2758671.0
+1625,Roosevelt Regional MSW Landfill,H.W. Hill Landfill,WA,Roosevelt,Klickitat,99356.0,45.805,-120.17399999999999,Private,1990.0,2100.0,Open,360.0,150.0,218761119.0,58222934.0,2393391.0
+62,Frank R. Bowerman SLF,Bee Canyon SLF,CA,Irvine,Orange,92602.0,33.72053,-117.70947,Public,1990.0,2053.0,Open,259.6,250.0,112816902.0,57681443.0,2753066.0
+1912,Woodland Meadows Landfill,Van Buren; North; South,MI,Wayne,Wayne,48184.0,42.2652,-83.4315,Private,1975.0,2024.0,Open,,,58780061.0,56080525.0,3414013.0
+497,Livingston LF,County Environmental of Livingston,IL,Pontiac,Livingston,61764.0,40.931779999999996,-88.65735,Private,1978.0,2047.0,Open,301.7,,82413820.0,53783549.0,943868.0
+1459,McCommas Bluff Landfill,City of Dallas,TX,Dallas,Dallas,75241.0,32.684168,-96.718334,Public,1981.0,2060.0,Open,436.3,,73289434.0,53664573.0,1928344.0
+2421,Newton County Landfill,Newton County Development Corporation,IN,Brook,Newton,47922.0,40.9263,-87.3487,Private,1995.0,2062.0,Open,219.1,183.0,131251141.0,51889435.0,2484570.0
+147,El Sobrante SLF,,CA,Corona,Riverside,92883.0,33.79923,-117.46786000000002,Private,1986.0,2059.0,Open,201.4,,212240372.0,51265919.0,3522931.0
+1892,Carleton Farms Landfill,,MI,New Boston,Wayne,48164.0,42.09394,-83.42973,Private,1993.0,2060.0,Open,204.7,,101131895.0,49694196.0,2061657.0
+72,BKK Landfill-Phases I & II,BKK West Covina Disposal Site,CA,West Covina,Los Angeles,91792.0,34.0353,-117.913,Private,1963.0,1996.0,Closed,,,49245368.0,49245368.0,2456370.0
+1256,"Keystone Sanitary Landfill, Inc.",,PA,Dunmore,Lackawanna,18512.0,41.427,-75.608,Private,1972.0,2020.0,Closed,396.8,,53528453.0,47526030.0,1836756.0
+981,Seneca Meadows SWMF,,NY,Waterloo,Seneca,13165.0,42.91795,-76.84716,Private,1974.0,2025.0,Open,250.9,,64866690.0,47161988.0,2148685.0
+1716,Tower Landfill Inc.,,CO,Commerce City,Adams,80022.0,39.85052,-104.77186999999999,Private,1981.0,2038.0,Open,229.3,143.0,71934041.0,44975247.0,1864254.0
+214,West Miramar SLF,,CA,San Diego,San Diego,92111.0,32.856,-117.162,Public,1983.0,2025.0,Open,477.0,50.0,52665014.0,44685269.0,857097.0
+1893,Pine Tree Acres LF Inc.,,MI,Lenox,Macomb,48048.0,42.7649,-82.7456,Private,1987.0,2041.0,Open,238.0,130.0,85497099.0,44599227.0,2817090.0
+931,Lockwood Regional LF,Refuse Inc - Lockwood Landfill,NV,Sparks,Storey,89434.0,39.494,-119.615,Private,1969.0,2142.0,Open,278.0,158.0,318092721.0,43302080.0,1403591.0
+640,Johnson County LF,"Deffenbaugh Industries, Inc.",KS,Shawnee,Johnson,66217.0,39.04226,-94.79455,Private,1967.0,2043.0,Open,332.7,,83527712.0,43185541.0,1550342.0
+1606,Cedar Hills Regional LF,,WA,Maple Valley,King,98038.0,47.442,-122.06,Public,1965.0,2040.0,Open,430.9,200.0,66150000.0,42161783.0,972922.0
+105,Chiquita Canyon SLF,,CA,Castaic,Los Angeles,91384.0,34.428059999999995,-118.64661000000001,Private,1970.0,2047.0,Open,227.0,100.0,60715392.0,42004497.0,1696338.0
+236,Otay LF,,CA,Chula Vista,San Diego,91911.0,32.604,-117.005,Private,1963.0,2028.0,Open,230.0,,49177036.0,41452967.0,1625481.0
+2429,Lorain County Landfill I & II,,OH,Oberlin,Lorain,44074.0,41.305,-82.175,Private,1972.0,2036.0,Open,,,54712100.0,41359122.0,1105258.0
+1595,Atlantic Waste Disposal Inc.,Sussex County Landfill,VA,Waverly,Sussex,23890.0,37.06925,-77.18108000000001,Private,1994.0,2079.0,Open,205.2,,148948247.0,40282740.0,1436342.0
+1783,Butterfield Station Landfill,,AZ,Mobile,Maricopa,85139.0,33.08,-112.2757,Private,1990.0,2052.0,Open,203.0,,96088410.0,39585710.0,1429217.0
+1845,Central LF,,RI,Johnston,Providence,2919.0,41.80468,-71.50216,Private,1955.0,2030.0,Open,244.0,150.0,40537696.0,39002254.0,970429.0
+1479,Atascocita RDF,WMI/Atascocita LF,TX,Humble,Harris,77396.0,29.958334000000004,-95.238334,Private,1983.0,2041.0,Open,205.5,,61779198.0,37827294.0,1302991.0
+1187,Carbon Limestone LF,,OH,Lowellville,Mahoning,44436.0,41.00163,-80.51899999999999,Private,1963.0,2052.0,Open,388.0,,57366110.0,37695461.0,1305389.0
+681,Outer Loop RDF,Outer Loop Landfill,KY,Louisville,Jefferson,40219.0,38.13577,-85.71611999999999,Private,1969.0,2070.0,Open,364.0,108.0,100589374.0,36812118.0,1133215.0
+1839,Turnkey Recycling and Environmental Enterprise (TREE),Rochester LF; Turnkey Landfill,NH,Rochester,Strafford,3839.0,43.2448,-70.9695,Private,1979.0,2035.0,Open,209.5,,59569177.0,36434328.0,1466667.0
+2151,Orchard Ridge RDF,Omega Hills LF; Parkview Recycling LF,WI,Menomonee Falls,Waukesha,53051.0,43.188,-88.0765,Private,1950.0,2028.0,Open,324.0,95.0,36806300.0,35930370.0,742324.0
+238,Ox Mountain SLF,Corinda Los Trancos SLF,CA,Half Moon Bay,San Mateo,94019.0,37.499,-122.412,Private,1977.0,2040.0,Open,160.0,226.0,41729278.0,35309558.0,1241683.0
+1509,Covel Gardens RDF,Garbage Gobbler LF,TX,San Antonio,Bexar,78252.0,29.35008,-98.64631,Private,1993.0,2106.0,Open,202.0,,129899685.0,35293256.0,1080529.0
+1195,American LF,,OH,Waynesburg,Stark,44688.0,40.72,-81.264,Private,1976.0,2106.0,Open,259.3,,116872775.0,35259696.0,900974.0
+1269,Conestoga LF,Morgantown,PA,Morgantown,Berks,19543.0,40.1806,-75.9144,Private,1994.0,2052.0,Open,197.0,150.0,39177762.0,35187511.0,1184987.0
+1071,Charlotte Motor Speedway Landfill V,CMS Landfill V,NC,Concord,Cabarrus,28027.0,35.3457,-80.6826,Private,1992.0,2034.0,Open,276.0,,40798812.0,34219656.0,1316511.0
+1268,Modern LF,Modern Trash Removal LF,PA,York,York,17406.0,39.955999999999996,-76.595,Private,1949.0,2025.0,Open,230.0,,37301113.0,34181239.0,1131122.0
+1820,Tessman Road Landfill,BFI - Tessman Road Landfill,TX,San Antonio,Bexar,78219.0,29.435834000000003,-98.339168,Private,1982.0,2060.0,Open,260.2,113.0,79930520.0,33483064.0,1330436.0
+420,Orange County SLF,,FL,Orlando,Orange,32829.0,28.480999999999998,-81.2083,Public,1972.0,2088.0,Open,717.4,,64559937.0,32954638.0,990732.0
+1899,Orchard Hills Landfill Inc.,"Davis Junction LF; Ogle County-Davis Junction; Rockford; Veolia ES Orchard Hills Landfill, Inc.",IL,Davis Junction,Ogle,61020.0,42.14322,-89.0769,Private,1998.0,2025.0,Open,161.5,,41537551.0,32515162.0,2247724.0
+419,Okeechobee LF,Berman Road LF,FL,Okeechobee,Okeechobee,34972.0,27.341040000000003,-80.6966,Private,1981.0,2087.0,Open,187.6,,241553464.0,32465910.0,2361928.0
+225,"Newby Island SLF Phases I, II, & III",NISL,CA,Milpitas,Santa Clara,95035.0,37.45897,-121.94108,Private,1930.0,2033.0,Open,235.0,,55759544.0,32026031.0,1729619.0
+265,Kiefer LF,Sacramento County LF,CA,Sloughhouse,Sacramento,95683.0,38.520990000000005,-121.1989,Public,1967.0,2064.0,Open,295.0,,117420098.0,31475089.0,917928.0
+402,Medley Landfill,,FL,Medley,Miami-Dade,33178.0,25.8586,-80.3508,Private,1980.0,2030.0,Open,144.7,,38135002.0,31324725.0,1263223.0
+287,Sycamore SLF,,CA,Santee,San Diego,92071.0,32.8496,-117.02667,Private,1962.0,2091.0,Open,153.0,213.0,41611821.0,31236808.0,1075381.0
+279,Simi Valley LF,,CA,Simi Valley,Ventura,93065.0,34.294540000000005,-118.79543999999999,Private,1970.0,2063.0,Open,143.7,,138635608.0,31173241.0,2150580.0
+2071,King George Landfill Inc.,,VA,King George,King George,22485.0,38.26964,-77.30596,Public,1996.0,2040.0,Open,204.8,,55916748.0,31120393.0,1801191.0
+1415,Middle Point Landfill,,TN,Murfreesboro,Rutherford,37130.0,35.94083,-86.35837,Private,1988.0,2028.0,Open,172.4,,41276585.0,29928464.0,963086.0
+2162,"Operating Industries, Inc. LF (OII)",Monterey Park Landfill,CA,Monterey Park,Los Angeles,91754.0,34.031,-118.10799999999999,Private,1948.0,1984.0,Closed,190.0,,,29920000.0,613000.0
+516,Milam Recycling and Disposal Facility,,IL,East St. Louis,St. Clair,62201.0,38.6547,-90.1302,Private,1965.0,2034.0,Open,185.0,,40550641.0,29903905.0,808056.0
+567,Twin Bridges RDF,Danville LF; Danville RDF,IN,Danville,Hendricks,46122.0,39.75,-86.5,Private,1973.0,2039.0,Open,173.4,124.0,47996636.0,28621989.0,761276.0
+1874,Roxana LF,Cahokia Road Sanitary Landfill/Laidlaw Waste Systems Incorp.,IL,Edwardsville,Madison,62025.0,38.8274,-90.0125,Private,1975.0,2049.0,Open,133.5,138.0,58479108.0,28399509.0,1231746.0
+11120,Forward Landfill,Forward Inc. Landfill,CA,Manteca,San Joaquin,95336.0,37.874624,-121.1833,Private,1973.0,2042.0,Open,157.0,,32882079.0,27940598.0,911265.0
+87,Calabasas SLF,,CA,Agoura Hills,Los Angeles,91301.0,34.14862,-118.70953,Public,1961.0,2040.0,Open,315.1,120.0,30930000.0,27820084.0,646001.0
+1883,Ottawa County Farms Landfill,,MI,Coopersville,Ottawa,49404.0,43.0502,-85.95682,Private,1982.0,2065.0,Open,160.5,87.0,65589451.0,27724971.0,875290.0
+309,Vasco Road SLF,,CA,Livermore,Alameda,94550.0,37.75333,-121.72333,Private,1962.0,2030.0,Open,204.2,,29915008.0,27697167.0,629390.0
+963,HMDC 1-C LF,HMDC 1-E LF; MSLA 1-C LF,NJ,Kearny,Hudson,,,,Public,1950.0,1987.0,Closed,,,,26994601.0,1350000.0
+1467,Arlington LF,City of Arlington LF,TX,Euless,Tarrant,76040.0,32.8,-97.108334,Public,1965.0,2062.0,Open,248.5,60.0,28547930.0,26760100.0,999762.0
+1576,Shoosmith SLF,Virginia Waste Services Sanitary Landfill,VA,Chester,Chesterfield,23831.0,37.3512,-77.4956,Private,1976.0,2070.0,Open,164.0,,36774894.0,26155423.0,978602.0
+1456,Skyline LF,,TX,Ferris,Dallas,75125.0,32.549,-96.68,Private,1950.0,2042.0,Open,223.4,,68016426.0,25930783.0,1588377.0
+1175,Franklin County SLF,,OH,Grove City,Franklin,43123.0,39.84186,-83.10904000000001,Public,1985.0,2062.0,Open,164.5,165.0,96748841.0,25610176.0,1236050.0
+1681,Metro RDF,,WI,Franklin,Milwaukee,53132.0,42.849509999999995,-88.065,Private,1951.0,2032.0,Open,155.0,,36432221.0,25557633.0,805492.0
+1497,Seabreeze Environmental Landfill,Brazoria County Disposal LF,TX,Angleton,Brazoria,77515.0,29.090834,-95.36,Private,1974.0,2037.0,Open,217.4,30.0,48694734.0,24649546.0,974589.0
+972,High Acres LF and Recycling Center,High Acres LF,NY,Fairport,Monroe,14450.0,43.08695,-77.37943,Private,1972.0,2053.0,Open,187.5,129.0,70539073.0,24338458.0,1145591.0
+11621,J.E.D. Solid Waste Management Facility,Oak Hammock Disposal; Omni Landfill; J.E.D. Landfill,FL,St. Cloud,Osceola,34773.0,28.064,-81.098,Private,2004.0,2056.0,Open,100.0,,83003742.0,24292755.0,1762733.0
+1780,Palos Verdes Landfill,,CA,Rolling Hills Estates,Los Angeles,90274.0,33.79189,-118.35243,Public,1952.0,1980.0,Closed,29.9,,,24048240.0,1385091.0
+1939,South Side Landfill Inc.,South Side LFG Recovery Project,IN,Indianapolis,Marion,46221.0,39.727940000000004,-86.20846999999999,Private,1971.0,2039.0,Open,255.5,,51050160.0,23957886.0,1209611.0
+1855,Sauk Trail Hills Landfill,Canton Landfill; Sauk Trail Hills Development,MI,Canton,Wayne,48188.0,42.2744,-83.4563,Private,1975.0,2033.0,Open,147.0,133.0,35920234.0,23862571.0,753468.0
+338,Mid-Valley Sanitary LF,Fontana Refuse Disposal Site,CA,Rialto,San Bernardino,92377.0,34.14333,-117.43,Public,1958.0,2045.0,Open,409.0,150.0,74468246.0,23789083.0,1257459.0
+1812,Blue Ridge LF,,TX,Fresno,Fort Bend,77545.0,29.5559,-95.4419,Private,1993.0,2110.0,Open,239.0,,25513290.0,23494698.0,994153.0
+2289,River Birch Landfill,,LA,Avondale,Jefferson,70094.0,29.932,-90.258,Private,1999.0,2045.0,Open,207.5,,50494500.0,23412942.0,1320550.0
+832,Champ Landfill,North SLF; Fred Weber SLF; IESI Champ Landfill,MO,Maryland Heights,St. Louis,63043.0,38.743,-90.46,Private,1974.0,2086.0,Open,110.5,,94181437.0,23376463.0,971277.0
+2323,Winnebago Landfill,Pagel Landfill; Pagel Pit,IL,Rockford,Winnebago,61109.0,42.1597,-89.0554,Private,1972.0,2037.0,Open,,,44201408.0,23175993.0,3087372.0
+2303,Pine Bluff Landfill,,GA,Ball Ground,Cherokee,30107.0,34.273,-84.387,Private,1990.0,2065.0,Open,134.3,,81571211.0,23150884.0,1039707.0
+1885,Riverview Land Preserve,,MI,Riverview,Wayne,48193.0,42.156209999999994,-83.21208,Public,1968.0,2031.0,Open,211.3,120.0,39006679.0,22996089.0,779000.0
+1464,Austin Community RDF,,TX,Austin,Travis,78754.0,30.34522,-97.61395,Private,1981.0,2025.0,Open,184.0,94.0,28568616.0,22963487.0,943983.0
+251,Prima Deshecha SLF,,CA,San Juan Capistrano,Orange,92675.0,33.486540000000005,-117.62491000000001,Public,1976.0,2067.0,Open,240.0,210.0,119092732.0,22937635.0,606514.0
+2266,Pine Ridge Landfill,Pine Ridge Recycling,GA,Griffin,Butts,30223.0,33.240017,-84.118684,Private,1997.0,2046.0,Open,148.0,,37266389.0,22646967.0,943835.0
+1770,Los Reales Landfill,,AZ,Tucson,Pima,85756.0,32.1192,-110.88,Public,1967.0,2089.0,Open,222.6,,26163223.0,22608148.0,710935.0
+2336,"Sampson County Disposal, LLC",,NC,Roseboro,Sampson,28382.0,34.982,-78.457,Private,2000.0,2041.0,Open,134.4,,44356712.0,22545363.0,1704122.0
+494,Zion Landfill,"Winthrop Harbor Landfill; Waukegan Landfill; Veolia ES Zion Landfill, Inc.",IL,Zion,Lake,60099.0,42.48483,-87.88497,Private,1975.0,2027.0,Open,175.0,100.0,32125498.0,22421189.0,600495.0
+1489,Sunset Farms Landfill,,TX,Austin,Travis,78754.0,30.335,-97.625,Private,1982.0,2015.0,Closed,257.8,81.0,26630028.0,22281720.0,643566.0
+1306,"Adams Sanitation Company, Inc. Landfill",Adsco,PA,Hanover,Adams,17331.0,39.7265,-77.0365,Private,1970.0,1993.0,Closed,108.0,,,22078368.0,919932.0
+1938,Liberty Landfill,,IN,Monticello,White,47960.0,40.885999999999996,-86.7,Private,1982.0,2028.0,Open,118.6,,36620815.0,21905462.0,1417239.0
+380,Brevard County Central Disposal Facility,Central Disposal/ Emergency LF,FL,Cocoa,Brevard,32926.0,28.3971,-80.8296,Public,1972.0,2020.0,Closed,198.0,110.0,22777328.0,21448507.0,949602.0
+1255,Grand Central SLF,,PA,Pen Argyl,Northampton,18072.0,40.8581,-75.2619,Private,1980.0,2028.0,Open,152.3,78.0,23579638.0,21393026.0,637608.0
+993,Modern Landfill Inc,,NY,Youngstown,Niagara,14174.0,43.210708000000004,-78.97899699999999,Private,1983.0,2038.0,Open,139.0,,29326500.0,21379511.0,900154.0
+1786,Northwest Regional MSW Landfill,,AZ,Surprise,Maricopa,85387.0,33.678000000000004,-112.48100000000001,Private,1983.0,2114.0,Open,133.3,127.0,149489019.0,21250933.0,1133749.0
+405,Trail Ridge Landfill Inc.,Trail Ridge LF,FL,Baldwin,Duval,32234.0,30.2246,-82.0447,Public,1992.0,2083.0,Open,148.0,135.0,89656690.0,21244408.0,837395.0
+1480,Camelot Landfill,City of Farmers Branch LF,TX,Lewisville,Denton,75056.0,33.029167,-96.95100000000001,Public,1980.0,2036.0,Open,178.9,,50389024.0,21185751.0,1016375.0
+1854,Richland County Landfill,Screaming Eagle LF,SC,Elgin,Richland,29045.0,34.1042,-80.782,Private,1972.0,2043.0,Open,145.3,,48339934.0,21151184.0,982448.0
+184,Keller Canyon LF,,CA,Pittsburg,Contra Costa,94565.0,38.00472,-121.93611000000001,Private,1992.0,2074.0,Open,103.5,191.0,74562762.0,21057754.0,1121992.0
+554,National Serv-All LF,MacBeth Road Landfill,IN,Fort Wayne,Allen,46809.0,41.03109,-85.21634,Private,1966.0,2058.0,Open,272.4,,35943069.0,21008766.0,755885.0
+624,Metro Park East Landfill,Metro Methane Recovery Facility,IA,Mitchellville,Polk,50169.0,41.600722,-93.345265,Public,1972.0,2057.0,Open,268.1,120.0,62610716.0,20521807.0,736060.0
+2444,King and Queen Landfill,,VA,Little Plymouth,King and Queen,23091.0,37.665,-76.77,Public,1993.0,2044.0,Open,160.0,,62110631.0,20073484.0,683464.0
+716,Woodside SLF & Recycling Center,Livingston Parish LF,LA,Walker,Livingston,70785.0,30.488459999999996,-90.82688,Private,1987.0,2053.0,Open,108.6,,43406439.0,20033175.0,847848.0
+491,Settler's Hill Recycling & Disposal Facility,Midway Landfill,IL,Batavia,Kane,60510.0,41.86965,-88.28543,Public,1968.0,2006.0,Closed,288.0,,,19560637.0,1047698.0
+250,Potrero Hills SLF,,CA,Suisun City,Solano,94585.0,38.22333,-121.97778000000001,Private,1986.0,2057.0,Open,148.0,,,19508129.0,1177598.0
+454,Richland Creek Road Landfill,UWL Inc-Richland Creek Road,GA,Buford,Gwinnett,30518.0,34.126999999999995,-84.0353,Private,1989.0,2031.0,Open,173.0,,23232703.0,19045819.0,886402.0
+11040,Land Recovery Landfill,Land Recovery Inc. 304th Street Landfill,WA,Graham,Pierce,98338.0,46.971000000000004,-122.2905,Private,1999.0,2032.0,Open,88.8,,32251058.0,18994542.0,1253918.0
+12061,Apex Sanitary Landfill,,OH,Amsterdam,Jefferson,43903.0,40.435,-80.91,Private,2005.0,2037.0,Open,82.0,,75254145.0,18966807.0,1669600.0
+1584,Bethel LF,"Big Bethel LF SLF Incorporated; USA Waste of Virginia Landfills, Inc.",VA,Hampton,Hampton city,23666.0,37.07201,-76.42704,Private,1975.0,2093.0,Open,146.6,146.0,52449240.0,18892738.0,766431.0
+1575,Charles City County SLF,Chambers Charles City LF; Chambers LF; Charles City LF,VA,Charles City,Charles City,23030.0,37.43919,-77.13331,Private,1990.0,2053.0,Open,139.0,95.0,45170371.0,18703275.0,753794.0
+2053,PBCSWA RRF Site #7,West Palm Beach #7; NCRRF (Site 7); North County LF; Palm Beach Renewable Energy Park (PBREP),FL,West Palm Beach,Palm Beach,33412.0,26.763,-80.137436,Public,1989.0,2063.0,Open,206.5,,50967207.0,18141170.0,615586.0
+1001,Niagara Falls Landfill,"Niagara Recycling, Incorporated",NY,Niagara Falls,Niagara,14304.0,43.090759999999996,-78.9998,Private,1971.0,2025.0,Open,205.0,,22822752.0,18127355.0,602466.0
+2277,Front Range Landfill,,CO,Erie,Weld,80516.0,40.020405,-105.01267299999999,Private,1996.0,2048.0,Open,78.3,,39434597.0,17971193.0,1873057.0
+12162,"Sunny Farms Landfill, LLC",,OH,Fostoria,Seneca,44830.0,41.108433000000005,-83.413297,Private,1970.0,2039.0,Open,116.2,,35722859.0,17860046.0,1804989.0
+10403,Eagle Point Landfill LLC,,GA,Ball Ground,Forsyth,30107.0,34.325556,-84.240833,Private,2002.0,2035.0,Open,81.5,,33782096.0,17807184.0,981156.0
+10400,"Chesser Island Road Landfill, Inc. MSWL",,GA,Folkston,Charlton,31537.0,30.7079,-82.0811,Private,1992.0,2065.0,Open,82.0,200.0,67042073.0,17182772.0,1713227.0
+1463,City of Fort Worth Southeast Landfill,,TX,Forest Hill,Tarrant,76140.0,32.647501,-97.239168,Public,1969.0,2036.0,Open,129.5,,32702781.0,17078673.0,954433.0
+10180,R & B (Banks) Landfill,Chambers R & B Landfill,GA,Homer,Banks,30547.0,34.35184,-83.42719,Private,1988.0,2052.0,Open,110.6,,34472200.0,16940887.0,1373938.0
+1246,Coffin Butte LF,,OR,Corvallis,Benton,97330.0,44.69915,-123.22506000000001,Private,1978.0,2044.0,Open,82.0,,39154705.0,16817397.0,1033753.0
+467,Live Oak LF,,GA,Conley,DeKalb,30288.0,33.6706,-84.3428,Private,1986.0,2004.0,Closed,130.0,,16745406.0,16745404.0,1129033.0
+1511,Texas Disposal Systems LF,,TX,Creedmoor,Travis,78610.0,30.109,-97.757,Private,1991.0,2046.0,Open,101.0,,31176902.0,16672244.0,1023445.0
+1006,Ontario County SLF,,NY,Stanley,Ontario,14561.0,42.8591,-77.0804,Public,1974.0,2028.0,Open,106.1,,19634655.0,16545573.0,1013964.0
+483,Greene Valley RDF,Greene Valley LF,IL,Naperville,DuPage,60565.0,41.73045,-88.07444,Public,1974.0,1996.0,Closed,14.0,,16282282.0,16282279.0,707925.0
+961,L & D LF,East Hampton Power Production Plant; Landfill and Development,NJ,Mount Holly,Burlington,8060.0,39.9835,-74.7725,Private,1968.0,1986.0,Closed,151.0,,16271044.0,16271041.0,856371.0
+943,Gloucester County Solid Waste Complex,Gloucester County SLF,NJ,Swedesboro,Gloucester,8085.0,39.7125,-75.285,Public,1987.0,2050.0,Open,,,16317000.0,16193825.0,1006966.0
+1790,Skunk Creek Landfill,,AZ,Phoenix,Maricopa,85027.0,33.712759999999996,-112.12763999999999,Public,1973.0,2005.0,Closed,422.9,,16125406.0,16125406.0,1011198.0
+1198,Kimble Sanitary LF,,OH,Dover,Tuscarawas,44622.0,40.511390000000006,-81.54137,Private,1960.0,2040.0,Open,96.1,175.0,40731297.0,16087293.0,1190729.0
+475,Lake LF,,IL,Northbrook,Cook,60062.0,42.1055,-87.8125,Private,1970.0,1993.0,Closed,167.0,,15786502.0,15786494.0,657771.0
+55,Badlands SLF,,CA,Moreno Valley,Riverside,92555.0,33.95349,-117.11758,Public,1966.0,2040.0,Open,109.6,140.0,27562500.0,15382327.0,886790.0
+2245,Noble Road LF,Oakland Marsh LF; Milliron Landfill,OH,Shiloh,Richland,44878.0,40.97586,-82.48737,Private,1997.0,2033.0,Open,45.5,,30033660.0,15322161.0,1152078.0
+2000,Oakridge Landfill Inc.,,SC,Dorchester,Dorchester,29437.0,33.135913,-80.3963,Private,1987.0,2043.0,Open,116.3,200.0,31635415.0,15149999.0,849762.0
+42,American Avenue Landfill,,CA,Kerman,Fresno,93630.0,36.66171,-120.1457,Public,1971.0,2044.0,Open,246.0,100.0,26838800.0,14940418.0,655171.0
+409,Springhill Regional Landfill,Springhill North LF & Springhill South LF,FL,Campbellton,Jackson,32426.0,30.92104,-85.42854,Private,1983.0,2074.0,Open,128.7,131.0,50527993.0,14932511.0,1016942.0
+1667,Glacier Ridge Landfill LLC,"Hechimovich SLF; Veolia ES Glacier Ridge Landfill, LLC",WI,Horicon,Dodge,53032.0,43.465,-88.555,Private,1960.0,2025.0,Open,125.9,80.0,18245763.0,14696501.0,665982.0
+1226,Oklahoma City Landfill,Oklahoma LF,OK,Oklahoma City,Oklahoma,73128.0,35.4455,-97.64,Private,1981.0,2025.0,Open,131.1,,,14120663.0,659973.0
+992,Mill Seat LF,Riga/Mill Seat Landfill,NY,Bergen,Monroe,14416.0,43.06504,-77.9328,Public,1993.0,2060.0,Open,90.0,,40423919.0,13804946.0,741782.0
+1772,Southwest Regional Landfill,Buckeye,AZ,Buckeye,Maricopa,85326.0,33.34469,-112.62391000000001,Public,1997.0,2131.0,Open,101.0,,29004965.0,13751463.0,749882.0
+2152,Hickory Meadows Landfill LLC,"Veolia ES Hickory Meadows Landfill, LLC",WI,Hilbert,Calumet,54129.0,44.105,-88.19200000000001,Private,1999.0,2029.0,Open,57.0,,21088169.0,13285697.0,727662.0
+1242,Finley Buttes Regional Landfill,,OR,Boardman,Morrow,97818.0,45.7447,-119.62299999999999,Private,1990.0,2242.0,Open,89.7,,85014551.0,13264077.0,757471.0
+987,Chaffee LF,CID Landfill,NY,Chaffee,Erie,14030.0,42.582,-78.505,Private,1958.0,2026.0,Open,86.0,102.0,16022743.0,13243924.0,692930.0
+485,Esarey Landfill,Esarey LF,IL,White Hall,Greene,,,,Private,1974.0,1993.0,Closed,,,,12919592.0,1202280.0
+268,San Marcos LF,,CA,San Marcos,San Diego,92078.0,33.07833,-117.165,Public,1979.0,1997.0,Closed,102.0,,12902208.0,12902208.0,679064.0
+1270,Blue Ridge Landfill,R. & A. Bender LF,PA,Chambersburg,Franklin,17202.0,39.97204,-77.55683,Private,1973.0,2035.0,Open,140.0,,24873975.0,12778397.0,753231.0
+1260,Cumberland County LF,"Community Refuse Service Incorporated LF; Hopewell LF, Newton LF",PA,Shippensburg,Cumberland,17257.0,40.1344,-77.5039,Private,1974.0,2026.0,Open,145.3,,18646491.0,12600745.0,713880.0
+12141,State Route 85 Landfill,,AZ,Buckeye,Maricopa,85326.0,33.178917,-112.66485,Public,2006.0,2100.0,Open,94.0,,29510617.0,12554889.0,865640.0
+217,Monterey Peninsula SLF,Marina LF; Monterey R.W.M.D. LF,CA,Marina,Monterey,93933.0,36.71333,-121.76666999999999,Public,1966.0,2132.0,Open,113.6,120.0,56885736.0,12435937.0,667199.0
+1687,Outagamie County LF,Appleton Landfill,WI,Appleton,Outagamie,54911.0,44.2872,-88.3487,Public,1975.0,2023.0,Open,130.4,,13133593.0,12222142.0,724501.0
+11822,City of Edinburg Landfill,Edinburg Regional Sanitary Type 1 Landfill,TX,Edinburg,Hidalgo,78539.0,26.397651,-98.12547099999999,Public,1977.0,2044.0,Open,148.0,,,12221415.0,646826.0
+730,EBR Parish North Landfill,North Landfill; East Baton Rouge Parish LF; EBR North Landfill,LA,Zachary,East Baton Rouge,70791.0,30.599,-91.234,Public,1993.0,2032.0,Open,100.0,180.0,24404049.0,12087314.0,601536.0
+12101,Fort Bend Regional Landfill,,TX,Needville,Fort Bend,77461.0,29.3965,-95.7259,Private,2004.0,2040.0,Open,74.7,185.0,30893666.0,11725348.0,1258482.0
+12201,121 Regional Disposal Facility,,TX,Melissa,Collin,75454.0,33.295432,-96.518814,Public,2004.0,2056.0,Open,89.4,,94356933.0,11704886.0,1013426.0
+1298,Seneca Landfill Inc.,,PA,Evans City,Butler,16033.0,40.8117,-80.0783,Private,1965.0,2023.0,Open,24.0,,,11618297.0,606023.0
+1571,Maplewood Recycling & Waste Disposal,Chambers Maplewood RDF; Amelia Landfill,VA,Jetersville,Amelia,23083.0,37.306999999999995,-78.0634,Private,1993.0,2147.0,Open,113.0,,40655766.0,11433197.0,711795.0
+2315,Prairie View RDF,,IL,Wilmington,Will,60481.0,41.34,-88.13,Public,2004.0,2036.0,Open,108.4,,24161285.0,11324812.0,814630.0
+476,Land & Lakes #1 and #2,138th Street Landfill,IL,Park Ridge,Cook,60068.0,41.644648,-87.59333000000001,Private,1971.0,1993.0,Closed,,,,11183620.0,617613.0
+1485,IESI Turkey Creek Landfill,,TX,Alvarado,Johnson,76009.0,32.3562,-97.20200000000001,Private,1983.0,2030.0,Open,122.0,110.0,14846041.0,11022493.0,654003.0
+1738,North Weld SLF,,CO,Ault,Weld,80610.0,40.58217,-104.83176999999999,Private,1992.0,2047.0,Open,91.1,,38112336.0,11014677.0,813757.0
+20711,Tunnel Hill Reclamation Landfill,,OH,New Lexington,Perry,43764.0,39.735838,-82.158251,Private,2007.0,2031.0,Open,49.0,,29166888.0,10636993.0,1531388.0
+550,Deercroft RDF,Deercroft LF,IN,Michigan City,LaPorte,46360.0,41.651379999999996,-86.9031,Private,1979.0,2002.0,Closed,110.0,88.0,10602815.0,10602806.0,842163.0
+2126,Union County Regional MSW Landfill,Upstate Regional LF,SC,Enoree,Union,29335.0,34.6125,-81.821,Private,2002.0,2093.0,Open,64.3,,80074194.0,10230654.0,730413.0
+47,Antelope Valley Recycling and Disposal Facility,,CA,Palmdale,Los Angeles,93551.0,34.567679999999996,-118.14993999999999,Private,1958.0,2032.0,Open,82.7,147.0,23693955.0,10115687.0,764180.0
+1411,Meadow Branch Landfill,Mine Road LF; Environmental Trust,TN,Athens,McMinn,37303.0,35.4828,-84.681,Private,1980.0,2032.0,Open,64.0,,21911258.0,9912013.0,888386.0
+1240,Wasco County Landfill,The Dalles Landfill; Northern Wasco County LF; Wasco Landfill,OR,The Dalles,Wasco,97058.0,45.56129,-121.14088999999998,Private,1973.0,2107.0,Open,69.6,,18373145.0,9893480.0,830542.0
+478,Paxton LF Corporation #2,,IL,Chicago,Cook,,41.681670000000004,-87.57284,Unknown,1976.0,1992.0,Closed,,,,9766782.0,684832.0
+2290,"Courtney Ridge Landfill, LLC",Courtney Ridge RDF,MO,Sugar Creek,Jackson,64050.0,39.141087,-94.388472,Private,1996.0,2039.0,Open,94.4,129.0,22795808.0,9705357.0,684841.0
+962,Kingsland Landfill,Bergen County LF; Kingsland Park Sanitary LF,NJ,North Arlington,Bergen,7031.0,40.784,-74.113,Public,1960.0,1988.0,Closed,166.0,70.0,,9700000.0,1300000.0
+11240,Juniper Ridge Landfill,West Old Town Landfill (WOTL),ME,Old Town,Penobscot,4468.0,44.9813,-68.7247,Public,1997.0,2030.0,Open,47.2,100.0,16868250.0,9638333.0,818599.0
+20698,Cedar Trail Landfill (CTL),Cedar Trail Class I and Class III Landfills,FL,Bartow,Polk,33830.0,27.89808,-81.884525,Private,1993.0,2032.0,Open,108.6,,13503834.0,9599395.0,672009.0
+12142,American Environmental Landfill,Shell Creek Landfill,OK,Sand Springs,Osage,74063.0,36.158803000000006,-96.19053199999999,Private,1981.0,2047.0,Open,58.8,,14959047.0,9280099.0,644949.0
+20759,Cowlitz County Headquarters Landfill,,WA,Castle Rock,Cowlitz,98611.0,46.248725,-122.77810900000001,Public,1993.0,2120.0,Open,,,53367110.0,8968176.0,766347.0
+489,K & H Disposal Landfill,E.D.C. Donovan,IL,Donovan,Iroquois,60931.0,40.8833,-87.6161,Private,1974.0,1993.0,Closed,,,,8887255.0,679972.0
+2073,Dry Creek Landfill,,OR,Eagle Point,Jackson,97524.0,42.382,-122.773,Private,1974.0,2112.0,Open,60.0,,76698382.0,8139716.0,611610.0
+1745,Butler County Landfill Inc.,,NE,David City,Butler,68632.0,41.2613,-97.0423,Private,1986.0,2022.0,Open,58.2,,,7790728.0,638002.0
+51,Austin Road Landfill,,CA,Manteca,San Joaquin,95336.0,37.7795,-121.1767,Private,1954.0,,Closed,,35.0,30624000.0,7354000.0,1232753.0
+54,Recology Hay Road LF,"B&J Drop Box SLF Inc.; Hay Road Landfill, Inc.",CA,Vacaville,Solano,95687.0,38.31497,-121.83164,Private,1964.0,2056.0,Open,122.8,,20391489.0,7266401.0,642017.0
+1976,Recology Ostrom Road LF,,CA,Wheatland,Yuba,95692.0,39.071709999999996,-121.3925,Private,1995.0,2084.0,Open,68.1,,27629965.0,7138726.0,2055134.0
+2424,Anson County Waste Management Facility,Chambers Development MSWLF,NC,Polkton,Anson,28135.0,34.973,-80.257,Private,2000.0,2031.0,Open,40.4,,16219527.0,7105679.0,837016.0
+20794,North Miramar SLF,,CA,San Diego,San Diego,92111.0,32.856,-117.162,Public,1973.0,1983.0,Closed,,,6901184.0,6901184.0,627380.0
+220,Neal Road Recycling and Waste Facility,Neal Road LF,CA,Paradise,Butte,95969.0,39.67425,-121.72928999999999,Public,1970.0,2047.0,Open,98.0,,11697222.0,6856794.0,806279.0
+10404,"Wolf Creek Landfill, LLC",,GA,Dry Branch,Twiggs,31020.0,32.770534999999995,-83.437873,Private,1992.0,2026.0,Open,48.3,,13122931.0,6413435.0,640841.0
+829,Central Missouri SLF,Sedalia Landfill,MO,Sedalia,Pettis,65301.0,38.7253,-93.287,Private,1972.0,2043.0,Open,51.4,60.0,11737469.0,6115066.0,612455.0
+944,HMDC 1-A LF,MSLA 1-A LF,NJ,Kearny,Hudson,,40.784,-74.113,Public,1950.0,1984.0,Closed,,,,5998800.0,1350000.0
+10141,Mission Canyon Landfill,Mission Canyon #1-3,CA,Los Angeles,Los Angeles,90049.0,34.1102,-118.4824,Public,1960.0,1965.0,Closed,110.0,104.0,5300000.0,5300000.0,1060000.0
+45,Anderson Landfill,Anderson Solid Waste Disposal Site,CA,Anderson,Shasta,96007.0,40.45,-122.28333400000001,Private,1977.0,2079.0,Open,76.2,,16367311.0,5023094.0,832456.0
+20699,Turkey Run Landfill,,GA,Hogansville,Meriwether,30230.0,33.163696,-84.848925,Private,2010.0,2063.0,Open,35.4,,28845477.0,4390210.0,766026.0
+477,Land & Lakes #3,Harborview Landfill,IL,Chicago,Cook,60633.0,41.6737,-87.5732,Private,1977.0,1998.0,Closed,69.0,,15000000.0,3307390.0,636050.0
+20758,A.C.M.S. Inc.,Heart of Florida Environmental,FL,Lake Panasoffkee,Sumter,33585.0,28.743151,-82.09165300000001,Private,2013.0,2025.0,Open,,,8041830.0,3059540.0,1047276.0
+488,Illinois Waste Systems Landfill,E.D.C. Milford,IL,Milford,Iroquois,60953.0,,,Private,1975.0,1993.0,Closed,,,,1900000.0,731671.0
+959,Kearny MSLA 1-D Landfill,MSLA 1-D LF,NJ,Kearny,Hudson,,40.750855,-74.10976,Public,1950.0,1982.0,Closed,,,10594016.0,,1002273.0
+10360,Fountain Avenue LF,,NY,Brooklyn,Kings,11208.0,40.65549,-73.86208,Public,1961.0,1985.0,Closed,297.0,,18720000.0,,944200.0
+10361,Pelham Bay LF,,NY,Bronx,Bronx,,40.8563889,-73.81444444,Public,1963.0,1978.0,Closed,81.0,,10816000.0,,676000.0
