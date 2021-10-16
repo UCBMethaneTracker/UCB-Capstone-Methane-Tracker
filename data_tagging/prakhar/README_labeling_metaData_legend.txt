@@ -2,7 +2,7 @@ Legend/Notes for labeling images:
 
 1. Make the rectangle box as tight around the landfill as possible
 
-2. Confidence (0 = no confidence, 1 = questionable, 1 = confident): how confident are you that you correctly drew the bounding box around the landfill 
+2. Confidence (0 = no confidence, 1 = questionable, 2 = confident): how confident are you that you correctly drew the bounding box around the landfill 
 
 3. Garbage visible? (0 = cannot see garbage in image, 1 = can see garbage): Are there clearly patches of garbage that can be seen in the landfill ? 
 This column is to help get a sense for how many images we have for more well-managed landfills (eg. dirt patches over the garbage) vs. those in which garbage is clearly exposed.
