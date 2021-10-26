@@ -1,4 +1,5 @@
 # sh run_train.sh
+# only set paramer --workers 0 when running on local computer
 set -x
 
 # Adam worked better than SGD.
@@ -14,6 +15,6 @@ python3 train.py \
 --single-cls \
 --cache ram \
 --image-weights \
---workers 0 \
+# --workers 0 \
 --no-augment \
 --adam
