@@ -1,4 +1,6 @@
 # run this file with "sh run_train.sh"
+# options:
+# use "--hyp data/hyps/hyp.finetune.yaml" instead of "--hyp data/hyps/hyp.scratch.yaml" if were to only finetune model with the training data
 # only set paramer --workers 0 when running on local computer
 set -x
 
@@ -15,6 +17,8 @@ python3 train.py \
 --single-cls \
 --cache ram \
 --image-weights \
-# --workers 0 \
 --no-augment \
 --adam
+--hyp data/hyps/hyp.scratch.yaml \
+# --hyp data/hyps/hyp.finetune.yaml \
+# --workers 0 \
