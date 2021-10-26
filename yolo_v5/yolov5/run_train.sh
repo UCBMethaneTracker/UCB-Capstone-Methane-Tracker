@@ -1,6 +1,5 @@
-# sh run_train.sh
+# run this file with "sh run_train.sh"
 # only set paramer --workers 0 when running on local computer
-# run this file with "sh run_train.py"
 set -x
 
 # Adam worked better than SGD.
