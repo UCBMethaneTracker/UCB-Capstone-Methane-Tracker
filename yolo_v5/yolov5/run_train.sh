@@ -20,5 +20,6 @@ python3 train.py \
 --no-augment \
 --adam
 --hyp data/hyps/hyp.scratch.yaml \
+--agnostic \
 # --hyp data/hyps/hyp.finetune.yaml \
 # --workers 0 \
