@@ -2,7 +2,6 @@
 # options:
 # use "--hyp data/hyps/hyp.finetune.yaml" instead of "--hyp data/hyps/hyp.scratch.yaml" if were to only finetune model with the training data
 # only set paramer --workers 0 when running on local computer
-set -x
 
 # Adam worked better than SGD.
 python3 train.py \
