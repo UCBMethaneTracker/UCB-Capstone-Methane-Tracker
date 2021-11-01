@@ -1,0 +1,228 @@
+<!DOCTYPE HTML>
+<!--
+	Photon by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>MethaneTracker</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="image" property="og:image" content="https://groups.ischool.berkeley.edu/MethaneTracker/images/introduction.png">
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#home" class="more scrolly">MethaneTracker</a></li>
+					<li><a href="#methods" class="more scrolly">Approach</a></li>
+					<li><a href="#models" class="more scrolly">Pipeline and Models</a></li>
+					<li><a href="#team" class="more scrolly">Project Team</a></li>
+				<!--	<li><a href="#links" class="more scrolly">Links</a></li> -->
+				</ul>
+			</nav>
+
+
+
+		<!-- Header -->
+			<article id="home" class="wrapper style1">
+			<section id="header">
+				<div class="inner">
+					<br /><br />
+					<span class="image"><img src="images/logo_1.png" width="125" height="125" /></></span>
+					<h1><br /><strong>Methane Tracker</strong></h1>
+					<h2><br />Detection of landfills using satellite images</h2><br />
+
+<!--
+					<ul class="actions special">
+						<li><a href="#about" class="button scrolly">Learn More</a></li>
+					</ul>
+-->
+				</div>
+			</section>
+
+		<!-- About -->
+			<section id="about" class="main style1 special">
+				<div class="container">
+					<header class="major">
+						<h2>MethaneTracker</h2>
+					</header>
+					<div class="major">
+						<div class="col-6 col-12-medium">
+							<p>While Carbon dioxide is well known to be a leading cause of global warming, one-sixth of global greenhouse emissions are caused by Methane (CH4).
+							Also, Methane is 30 times more potent than CO2 in warming the atmosphere and Methane emissions need to be reduced by 45% by 2030.
+							In the United States, landfills are estimated to contibute 17% to CH4 emissions and are the third largest contributor, after energy and agriculture.
+							The figure below shows the amount of reduction in methane required to keep the temperature rise to less than 1.5 degrees C.
+							</p>
+							<span class="image fit"><img src="methane_reduction.png" alt="" /></span>
+							<p>As a first step in this direction, we need to identify all the landfills in a given geographical region. This helps with identifying illegal
+							dumpsites. The sense in which the landfills are illegal could range from being unauthorized, emitting more Methane than allowed, landfill
+							area larger than originally authorized etc. We propose a two-stage approach:
+							In stage 1, we calculate a probability for whether or not a given image contains a landfill. In stage 2, we draw a bounding box around the
+							landfill. In conjunction with other emissions data, this model can be used to provide accurate estimates of Methane emission from a given
+							landfill. </p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Methods -->
+			<section id="methods" class="main style2">
+				<div class="container">
+
+					<header class="major special">
+						<h2>Methodology</h2>
+					</header>
+					<p>MethaneTracker is trained on approximately 2,500 satellite images of landfills obtained from Copernicus Sentinel-2 using Google Earth Engine
+					(~2000 in the US and ~500 in other countries). We utilize deep learning methods for automated detection of whether or not an image contains a landfill and
+					drawing a bounding box around the landfill if the image contains a landfill. Our approach provides an efficient and scalable method for
+					detecting landfills and will be useful to any agency or regulatory body looking to identify landfills and the amount of Methane emitted by them. </p>
+					<br />
+
+					<div class="major">
+						<div class="col-6 col-12-medium">
+						<h3>Data</h3>
+					</div>
+
+					<div class="row gtr-150">
+						<div class="col-6 col-12-medium">
+							<p>We searched for existing sources of labeled landfill datasets and were unable to find any labeled datasets. We spent a couple of weeks
+							and built our own dataset for the classification and segmentation tasks. For classification training, we obtained the latitude and longitude
+							co-ordinates of ~2000 landfills in the United States and ~500 landfills in the rest of the world. The images were obtained using the google earth engine API.
+							We assumed that if the latitude and longitude co-ordinates we offset by a value of 0.4, we would not have a landfill in the image that is generated
+							from the new set of co-ordinates and generated 4x the number of images in the positive class. (positive class - images with landfills, negative class -
+							images with no landfills). For semantic segmentation, we used the makesense.ai platform to annotate landfills in images and generate segmentation masks.</p>
+
+							<p>The image zoom level is set at abc with image sizes of Z x Z pixels.</p>
+						</div>
+						<div class="col-6 col-12-medium">
+							<br />
+							<div class="row gtr-uniform gtr-50">
+								<div class="col-4"><span class="image fit"><img src="images/data-s1.png" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/data-s2.png" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/data-s3.png" alt="" /></span></div>
+							</div>
+							<br />
+							<br />
+							<div class="row gtr-uniform gtr-50">
+								<div class="col-4"><span class="image fit"><img src="images/data-ns1.png" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/data-ns2.png" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/data-ns3.png" alt="" /></span></div>
+							</div>
+						</div>
+					</div>
+					<br />
+
+					<div class="major">
+						<div class="col-6 col-12-medium">
+						<h3>Model Architecture</h3>
+					</div>
+					<div class="major">
+						<div class="col-6 col-12-medium">
+							<p>MethaneTracker deploys a two-stage model using an image classification model to identify the landfill images,
+							which are then passed to a semantic segmentation model for mask prediction. For the classification model,
+							we utilize transfer learning and fine-tuned Inception-V3. This convolutional neural network classifies each satellite
+							image tile into the landfill or no-landfill class. Those images that are identified as landfill with probability greater than
+							a threshld value are passed through the semantic segmentation model, which is a YOLO-v5 model. For a given image,
+							this model draws a bounding box around the landfill in the image.</p>
+						</div>
+						<div class="col-6 col-12-medium imp-medium">
+							<span class="image fit"><img src="images/model-arch.png" alt="" /></span>
+						</div>
+						<div class="col-6 col-12-medium">
+							<p></p>
+						</div>
+					</div>
+					<br />
+
+					<div class="major">
+						<div class="col-6 col-12-medium">
+						<h3>Performance</h3>
+					</div>
+					<div class="row gtr-150">
+						<div class="col-6 col-12-medium">
+							<p>The performance of our model is evaluated on a validation dataset of z1 landfill and z2 no-landfill images.
+							For the classification model, we use the performance metrics of accuracy, precision, recall, and F-1 score.
+							For the semantic segmentation model, we use the performance metrics of mAP (mean average precision).</p>
+						</div>
+						<div class="col-6 col-12-medium imp-medium">
+							<span class="image fit"><img src="images/performance_val.png" alt="" /></span>
+						</div>
+						<div class="col-6 col-12-medium">
+							<p></p>
+						</div>
+						<div class="col-6 col-12-medium imp-medium">
+							<span class="image fit"><img src="images/performance_exp.png" alt="" /></span>
+						</div>
+					</div>
+					<br />
+
+				</div>
+			</section>
+
+		<!-- Team-->
+			<section id="team" class="main style2 special">
+				<div class="container">
+					<header class="major special">
+						<h2>Team</h2>
+					</header>
+					<p>We are a team of data scientists at University of California Berkeley and this project is part of our synthetic capstone class.
+					We believe that this work will contribute to identify landfills and provide good estimates of methane emissions from these landfills and
+					help landfill operators and regulatory agencies with policy compliance. </p>
+					<div class="row gtr-150">
+						<div class="col-3 col-12-medium">
+							<span class="image fit"><img src="images/prakhar.png" alt="" /></span>
+							<h3>Prakhar Maini</h3>
+<!--
+								<ul class="actions special">
+								<li><a href="https://www.linkedin.com/in/prakhar-maini-50489528/" style="color:#0072b1" class="icon brands alt fa-linkedin fa-2x"></a></li>
+							</ul>
+-->
+						</div>
+						<div class="col-3 col-12-medium">
+							<span class="image fit"><img src="images/brian.png" alt="" /></span>
+							<h3>Brian Ament</h3>
+<!--
+							<ul class="actions special">
+								<li><a href="https://www.linkedin.com/in/brian-ament-2019/" style="color:#0072b1" class="icon brands alt fa-linkedin fa-2x"></a></li>
+							</ul>
+-->
+						</div>
+						<div class="col-3 col-12-medium">
+							<span class="image fit"><img src="images/sonya.png" alt="" /></span>
+							<h3>Sonya Chen</h3>
+<!--
+							<ul class="actions special">
+								<li><a href="https://www.linkedin.com/in/chen-sonya-yuechan/" style="color:#0072b1" class="icon brands alt fa-linkedin fa-2x"></a></li>
+							</ul>
+-->
+						</div>
+						<div class="col-3 col-12-medium">
+							<span class="image fit"><img src="images/michael.png" alt="" /></span>
+							<h3>Michael Zhu</h3>
+<!--
+							<ul class="actions special">
+								<li><a href="https://www.linkedin.com/in/zhum01/" style="color:#0072b1" class="icon brands alt fa-linkedin fa-2x"></a></li>
+							</ul>
+-->
+						</div>
+						<div class="col-3 col-12-medium">
+							<span class="image fit"><img src="images/lalit.png" alt="" /></span>
+							<h3>Lalit Vedula</h3>
+<!--
+							<ul class="actions special">
+								<li><a href="https://www.linkedin.com/in/lalit-vedula-4575919/" style="color:#0072b1" class="icon brands alt fa-linkedin fa-2x"></a></li>
+							</ul>
+-->
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+	</body>
+</html>
