@@ -11,7 +11,7 @@ python3 train.py \
 --data capstone.yaml \
 --cfg ./models/yolov5s.yaml \
 --weights yolov5s.pt \
---freeze 10 \
+# --freeze 10 \
 --name yolov5s_cap_results \
 --single-cls \
 --cache ram \
