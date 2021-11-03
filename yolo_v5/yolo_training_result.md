@@ -53,6 +53,7 @@ Results saved to runs/train/yolov5s_cap_results
 ###################
 set num_max = 1 and agnostic
 best mAP@.5 = 0.259
+Save In yolov5s_cap_results28
 ###################
 
      Epoch   gpu_mem       box       obj       cls    labels  img_size
@@ -105,3 +106,67 @@ wandb:                  x/lr2 0.00689
 
 
 ---------------------------------------
+#########
+unfreeze backbone layers (10) + agnostic + max_nums=1
+
+best mAP@.5 = 0.584
+
+runs/train/exp16
+
+############
+
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   248/299     1.54G   0.01635  0.007038         0         7       512: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 139/139 [00:13<00:00, 10.28it/s$
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:00<00:00, 12.21it/s$
+                 all        135        135      0.569      0.489        0.5      0.268
+EarlyStopping patience 100 exceeded, stopping training.
+
+249 epochs completed in 1.009 hours.
+Optimizer stripped from runs/train/exp16/weights/last.pt, 14.4MB
+Optimizer stripped from runs/train/exp16/weights/best.pt, 14.4MB
+
+Validating runs/train/exp16/weights/best.pt...
+Fusing layers...
+Model Summary: 213 layers, 7012822 parameters, 0 gradients, 15.8 GFLOPs
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:02<00:00,  4.21it/s$
+                 all        135        135      0.628      0.563      0.584      0.332
+
+wandb: Waiting for W&B process to finish, PID 2949... (success).
+wandb:
+wandb: Run history:
+wandb:        metrics/mAP_0.5 ▁▁▅▅█▇▇▅▇▆▅▇▅▅▅▅▅▆▇▇▇▅▇▆▆▆▅▆▅▅▆▆▅▆▆▆▅▆▆▆
+wandb:   metrics/mAP_0.5:0.95 ▁▂▆▄▇▇▇▇▆▇▅▇▆▆▆▆▆▇▇██▆▇▆██▇▇▇▆▇▇▇▇▇▇▆▇▇▇
+wandb:      metrics/precision ▁▃▆▄▆█▆▄▆█▅▆▆▇▆▇▅▅▆▇▇▅▆▅▅▇▆▅▆▅▇▆▅▅▆▆▆▆▇▇
+wandb:         metrics/recall ▂▁▅▄█▄▇▄▆▄▄▇▅▃▄▃▄▅▆▇▆▄▆▅▆▄▄▆▅▄▆▅▅▆▆▅▅▄▄▄
+wandb:         train/box_loss █▆▅▄▄▄▄▄▃▃▃▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▁▂▁▁▁▁▁▁▁▁▁▁▁
+wandb:         train/cls_loss ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:         train/obj_loss █▆▆▆▆▅▅▅▅▅▅▄▄▄▄▄▃▃▃▃▃▂▃▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁
+wandb:           val/box_loss █▅▃▃▂▃▂▂▃▂▄▃▃▂▃▃▃▂▃▂▁▃▂▃▂▂▃▂▂▂▂▃▂▃▃▂▃▃▂▂
+wandb:           val/cls_loss ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:           val/obj_loss ▆▃▂▁▁▁▁▁▂▂▂▁▂▂▃▂▃▃▃▃▃▄▄▅▄▅▅▅▆▆▅▆▇▇▇▇▇▇██
+wandb:                  x/lr0 ▂████████▇▇▇▇▇▇▆▆▆▆▅▅▅▅▄▄▄▄▃▃▃▃▃▂▂▂▂▁▁▁▁
+wandb:                  x/lr1 ▂████████▇▇▇▇▇▇▆▆▆▆▅▅▅▅▄▄▄▄▃▃▃▃▃▂▂▂▂▁▁▁▁
+wandb:                  x/lr2 █▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:
+wandb: Run summary:
+wandb:        metrics/mAP_0.5 0.50031
+wandb:   metrics/mAP_0.5:0.95 0.26778
+wandb:      metrics/precision 0.56856
+wandb:         metrics/recall 0.48889
+wandb:         train/box_loss 0.01635
+wandb:         train/cls_loss 0.0
+wandb:         train/obj_loss 0.00704
+wandb:           val/box_loss 0.0456
+wandb:           val/cls_loss 0.0
+wandb:           val/obj_loss 0.01305
+wandb:                  x/lr0 0.00168
+wandb:                  x/lr1 0.00168
+wandb:                  x/lr2 0.00168
+
+
+wandb: Synced 5 W&B file(s), 273 media file(s), 1 artifact file(s) and 1 other file(s)
+wandb: Synced iconic-galaxy-36: https://wandb.ai/sonyasonya345/YOLOv5/runs/1zqlqz9a
+wandb: Find logs at: ./wandb/run-20211103_010904-1zqlqz9a/logs/debug.log
+wandb:
+Results saved to runs/train/exp16
