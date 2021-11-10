@@ -9,7 +9,8 @@ python3 train.py \
 --batch 8 \
 --epochs 300 \
 --data capstone.yaml \
---cfg ./models/yolov5s.yaml \
+# --cfg ./models/yolov5s.yaml \
+--cfg ./models/yolov5m.yaml \
 --weights yolov5s.pt \
 # --freeze 10 \
 --name yolov5s_cap_results \

@@ -3,7 +3,6 @@
 # Excel: https://docs.google.com/spreadsheets/d/1kMUBK0LzOlPrmMsbGU8bbVlGNG59htYdAAAMAQNpsXc/edit#gid=0
 ----------------
 
-
 Img_size: 64, Batch 8m, Epoch 80
 
 Model Summary: 213 layers, 7012822 parameters, 0 gradients, 15.8 GFLOPs
