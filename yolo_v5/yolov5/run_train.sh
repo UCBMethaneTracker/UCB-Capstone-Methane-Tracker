@@ -15,7 +15,7 @@ python3 train.py \
 --cfg ./models/yolov5m.yaml \
 --weights yolov5m.pt \
 --name yolov5m_cap_results \
-# --freeze 10 \
+--freeze 10 \
 --single-cls \
 --cache ram \
 --image-weights \
