@@ -178,6 +178,7 @@ Results saved to runs/train/exp16
 
 ------------------
 Train with mid size Yolo v5
+unfreeze backbone
 
 
  Epoch   gpu_mem       box       obj       cls    labels  img_size                                                                                                                                                                [0/1738]
@@ -216,3 +217,52 @@ Results saved to runs/train/exp18
 
 
 ----------------------
+##########
+mid size model
+freeze backbone 10 layers
+###############
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   172/299     1.54G   0.02034  0.008338         0         7       512: 100%|█|
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all        135        135      0.615      0.496      0.538      0.271
+EarlyStopping patience 100 exceeded, stopping training.
+
+173 epochs completed in 0.797 hours.
+Optimizer stripped from runs/train/exp21/weights/last.pt, 14.4MB
+Optimizer stripped from runs/train/exp21/weights/best.pt, 14.4MB
+
+Validating runs/train/exp21/weights/best.pt...
+Fusing layers...
+Model Summary: 213 layers, 7012822 parameters, 0 gradients, 15.8 GFLOPs
+               Class     Images     Labels          P          R     mAP@.5 mAP@
+                 all        135        135      0.613        0.6      0.625      0.351
+
+wandb: Waiting for W&B process to finish, PID 2430... (success).
+
+
+wandb: Run summary:
+wandb:        metrics/mAP_0.5 0.53775
+wandb:   metrics/mAP_0.5:0.95 0.27108
+wandb:      metrics/precision 0.61462
+wandb:         metrics/recall 0.4963
+wandb:         train/box_loss 0.02034
+wandb:         train/cls_loss 0.0
+wandb:         train/obj_loss 0.00834
+wandb:           val/box_loss 0.04638
+wandb:           val/cls_loss 0.0
+wandb:           val/obj_loss 0.01152
+wandb:                  x/lr0 0.00452
+wandb:                  x/lr1 0.00452
+wandb:                  x/lr2 0.00452
+wandb:
+wandb: Synced 5 W&B file(s), 177 media file(s), 1 artifact file(s) and 1 other file(s)
+wandb: Synced fancy-tree-41: https://wandb.ai/sonyasonya345/YOLOv5/runs/22z48c1g
+wandb: Find logs at: ./wandb/run-20211118_061101-22z48c1g/logs/debug.log
+wandb:
+Results saved to runs/train/exp21
+
+
+-----------------------------------------
+
+
