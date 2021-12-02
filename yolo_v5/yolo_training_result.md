@@ -268,3 +268,15 @@ Results saved to runs/train/exp21
 
 Speed: 0.4ms pre-process, 10.1ms inference, 0.6ms NMS per image at shape (1, 3, 512, 512)
 Results saved to runs/detect/yolov5m_test_results
+
+
+-----------------------------
+
+## Validate result on the Test Set. 
+
+val: New cache created: ../test/labels.cache
+LoadImagesAndLabels() initiated
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█████| 33/33 [00:02<00:00, 11.67it/s]
+                 all        258        258      0.502      0.469      0.449      0.204
+Speed: 0.2ms pre-process, 5.0ms inference, 2.3ms NMS per image at shape (8, 3, 512, 512)
+Results saved to runs/val/yolov5m_val_results
