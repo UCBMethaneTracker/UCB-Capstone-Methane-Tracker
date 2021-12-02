@@ -4,11 +4,11 @@
 # only set paramer --workers 0 when running on local computer
 
 # Adam worked better than SGD.
+# --cfg ./models/yolov5m.yaml \
 python3 detect.py \
 --img 512 \
---source ../test/images/ \
-# --cfg ./models/yolov5m.yaml \
---weights runs/train/exp18/weights/best.pt \
+--source "../test/images/" \
+--weights "runs/train/exp18/weights/best.pt" \
 --name yolov5m_test_results \
 --save-conf
 # --freeze 10 \
