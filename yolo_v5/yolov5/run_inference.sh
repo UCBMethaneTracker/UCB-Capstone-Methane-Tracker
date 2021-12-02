@@ -1,26 +1,15 @@
 # run this file with "sh run_inference.sh"
-# options:
-# use "--hyp data/hyps/hyp.finetune.yaml" instead of "--hyp data/hyps/hyp.scratch.yaml" if were to only finetune model with the training data
-# only set paramer --workers 0 when running on local computer
+
+# use this file to run on test_set. However, this command will not provide the statistic 
+# b/c it should be working as you are not the data owner, you supposely not able to validate test set yourself.
 
 # Adam worked better than SGD.
-# --cfg ./models/yolov5m.yaml \
 python3 detect.py \
 --img 512 \
 --source "../test/images/" \
 --weights "runs/train/exp18/weights/best.pt" \
 --name yolov5m_test_results \
 --save-conf
-# --freeze 10 \
-# --single-cls \
-# --cache ram \
-# --image-weights \
-# --no-augment \
-# --adam
-# --hyp data/hyps/hyp.scratch.yaml \
-# --agnostic \
-# --hyp data/hyps/hyp.finetune.yaml \
-# --workers 0 \
 
 
 # ---------------
