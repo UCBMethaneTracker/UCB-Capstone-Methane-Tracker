@@ -280,3 +280,20 @@ LoadImagesAndLabels() initiated
                  all        258        258      0.502      0.469      0.449      0.204
 Speed: 0.2ms pre-process, 5.0ms inference, 2.3ms NMS per image at shape (8, 3, 512, 512)
 Results saved to runs/val/yolov5m_val_results
+
+
+-----
+## Inference Result on Results classified as having landfill from Brian's classification model - yolov5m_test_results_from_images_with_landfill_predicted_india
+
+ubuntu@ip-172-31-4-159:~/UCB-Capstone-Methane-Tracker/yolo_v5/yolov5$ python3 detect.py \
+> --img 512 \
+> --source "../../unseen_data_sweeps/images_with_landfill_predicted_india/" \
+> --name yolov5m_test_results_from_images_with_landfill_predicted_india \
+> --weights "runs/train/exp18/weights/best.pt" \
+> --save-conf
+
+detect: weights=['runs/train/exp18/weights/best.pt'], source=../../unseen_data_sweeps/images_with_landfill_predicted_india/, imgsz=[512, 512], conf_thres=0.25, iou_thres=0.45, max_det=1000, device=, view_img=False, save_txt=False, save_conf=True, save_crop=False, nosave=False, classes=None, agnostic_nms=False, augment=False, visualize=False, update=False, project=runs/detect, name=yolov5m_test_results_from_images_with_landfill_predicted_india, exist_ok=False, line_thickness=3, hide_labels=False, hide_conf=False, half=False, dnn=False
+
+
+Speed: 0.4ms pre-process, 10.1ms inference, 0.5ms NMS per image at shape (1, 3, 512, 512)
+Results saved to runs/detect/yolov5m_test_results_from_images_with_landfill_predicted_india

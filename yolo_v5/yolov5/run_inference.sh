@@ -3,12 +3,19 @@
 # use this file to run on test_set. However, this command will not provide the statistic 
 # b/c it should be working as you are not the data owner, you supposely not able to validate test set yourself.
 
-# Adam worked better than SGD.
+# normal test folder 
 python3 detect.py \
 --img 512 \
-# --source "../test/images/" \
-# --name yolov5m_test_results \
---source "../../unseen_data_sweeps/images_with_landfill_predicted_india/"
+--source "../test/images/" \
+--name yolov5m_test_results \
+--weights "runs/train/exp18/weights/best.pt" \
+--save-conf
+
+
+# images_with_landfill_predicted_india
+python3 detect.py \
+--img 512 \
+--source "../../unseen_data_sweeps/images_with_landfill_predicted_india/" \
 --name yolov5m_test_results_from_images_with_landfill_predicted_india \
 --weights "runs/train/exp18/weights/best.pt" \
 --save-conf
