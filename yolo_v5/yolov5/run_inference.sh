@@ -6,9 +6,11 @@
 # Adam worked better than SGD.
 python3 detect.py \
 --img 512 \
---source "../test/images/" \
+# --source "../test/images/" \
+# --name yolov5m_test_results \
+--source "../../unseen_data_sweeps/images_with_landfill_predicted_india/"
+--name yolov5m_test_results_from_images_with_landfill_predicted_india \
 --weights "runs/train/exp18/weights/best.pt" \
---name yolov5m_test_results \
 --save-conf
 
 
