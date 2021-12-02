@@ -7,7 +7,7 @@
 python3 val.py \
 --img 512 \
 --batch 8 \
---data  capstone_validate_test_set.yaml \
+--data capstone_validate_test_set.yaml \
 --weights "runs/train/exp18/weights/best.pt" \
 --name yolov5m_val_results \
 --single-cls \
