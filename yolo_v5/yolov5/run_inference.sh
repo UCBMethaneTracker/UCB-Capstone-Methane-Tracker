@@ -8,7 +8,7 @@ python3 detect.py \
 --img 512 \
 --source ../test/images/ \
 # --cfg ./models/yolov5m.yaml \
---weights ./runs/train/exp18/weights/best.pt \
+--weights runs/train/exp18/weights/best.pt \
 --name yolov5m_test_results \
 --save-conf
 # --freeze 10 \
