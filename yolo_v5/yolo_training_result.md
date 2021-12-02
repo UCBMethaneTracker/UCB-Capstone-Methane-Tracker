@@ -264,5 +264,7 @@ Results saved to runs/train/exp21
 
 
 -----------------------------------------
+## Inference result 1
 
-
+Speed: 0.4ms pre-process, 10.1ms inference, 0.6ms NMS per image at shape (1, 3, 512, 512)
+Results saved to runs/detect/yolov5m_test_results
