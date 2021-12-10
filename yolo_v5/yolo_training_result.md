@@ -214,6 +214,7 @@ wandb: Synced wobbly-eon-38: https://wandb.ai/sonyasonya345/YOLOv5/runs/1elu8v06
 wandb: Find logs at: ./wandb/run-20211111_024115-1elu8v06/logs/debug.log
 wandb:
 Results saved to runs/train/exp18
+https://github.com/UCBMethaneTracker/UCB-Capstone-Methane-Tracker/tree/main/yolo_v5/yolov5/runs/train/exp18
 
 
 ----------------------
@@ -264,15 +265,23 @@ Results saved to runs/train/exp21
 
 
 -----------------------------------------
-## Inference result 1
+## Inference result 1 
+## On Test Set
+## This run with run_inference.sh
+## so not statistic
 
 Speed: 0.4ms pre-process, 10.1ms inference, 0.6ms NMS per image at shape (1, 3, 512, 512)
 Results saved to runs/detect/yolov5m_test_results
+
+https://github.com/UCBMethaneTracker/UCB-Capstone-Methane-Tracker/tree/main/yolo_v5/yolov5/runs/detect/yolov5m_test_results
 
 
 -----------------------------
 
 ## Validate result on the Test Set. 
+## On Test Set
+## This run with run_val.sh
+## so has statistic
 
 val: New cache created: ../test/labels.cache
 LoadImagesAndLabels() initiated
@@ -281,9 +290,15 @@ LoadImagesAndLabels() initiated
 Speed: 0.2ms pre-process, 5.0ms inference, 2.3ms NMS per image at shape (8, 3, 512, 512)
 Results saved to runs/val/yolov5m_val_results
 
+https://github.com/UCBMethaneTracker/UCB-Capstone-Methane-Tracker/tree/main/yolo_v5/yolov5/runs/val/yolov5m_val_results
+
 
 -----
 ## Inference Result on Results classified as having landfill from Brian's classification model - yolov5m_test_results_from_images_with_landfill_predicted_india
+
+## this set of data was not have any similar data in the trainig set. 
+## So it is completely tranfer learning. 
+## Result would be even better if include such distribution into learning. 
 
 ubuntu@ip-172-31-4-159:~/UCB-Capstone-Methane-Tracker/yolo_v5/yolov5$ python3 detect.py \
 > --img 512 \
@@ -297,3 +312,5 @@ detect: weights=['runs/train/exp18/weights/best.pt'], source=../../unseen_data_s
 
 Speed: 0.4ms pre-process, 10.1ms inference, 0.5ms NMS per image at shape (1, 3, 512, 512)
 Results saved to runs/detect/yolov5m_test_results_from_images_with_landfill_predicted_india
+
+https://github.com/UCBMethaneTracker/UCB-Capstone-Methane-Tracker/tree/main/yolo_v5/yolov5/runs/detect/yolov5m_test_results_from_images_with_landfill_predicted_india
