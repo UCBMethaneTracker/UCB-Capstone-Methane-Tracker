@@ -19,7 +19,7 @@ python3 train.py \
 --no-augment \
 --adam \
 --hyp data/hyps/hyp.scratch.yaml \
---agnostic \
+# --agnostic \
 
 ## small size model
 # --cfg ./models/yolov5s.yaml \
