@@ -624,8 +624,7 @@ def non_max_suppression(prediction, conf_thres=0.25, iou_thres=0.45, classes=Non
     # Settings
     min_wh, max_wh = 2, 4096  # (pixels) minimum and maximum box width and height
     # Sonya Note: default is 30000. Changed to 1 to limit to onlye 1 bounding box per images
-    max_nms = 30000
-    # max_nms = 1  # maximum number of boxes into torchvision.ops.nms()
+    max_nms = 1  # maximum number of boxes into torchvision.ops.nms()
     time_limit = 10.0  # seconds to quit after
     redundant = True  # require redundant detections
     multi_label &= nc > 1  # multiple labels per box (adds 0.5ms/img)

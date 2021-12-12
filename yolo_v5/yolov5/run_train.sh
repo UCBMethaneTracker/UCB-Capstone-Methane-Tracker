@@ -9,18 +9,24 @@ python3 train.py \
 --batch 8 \
 --epochs 300 \
 --data capstone.yaml \
+--cfg ./models/yolov5l.yaml \
+--weights yolov5l.pt \
+--name yolov5l_cap_results \
 --freeze 10 \
 --single-cls \
 --cache ram \
 --image-weights \
 --no-augment \
---adam
+--adam \
 --hyp data/hyps/hyp.scratch.yaml \
 --agnostic \
---cfg ./models/yolov5s.yaml \
---weights yolov5s.pt \
---name yolov5s_cap_results_v2 \
 
+## small size model
+# --cfg ./models/yolov5s.yaml \
+# --weights yolov5s.pt \
+# --name yolov5s_cap_results \
+
+## mid size model
 # --cfg ./models/yolov5m.yaml \
 # --weights yolov5m.pt \
 # --name yolov5m_cap_results \
