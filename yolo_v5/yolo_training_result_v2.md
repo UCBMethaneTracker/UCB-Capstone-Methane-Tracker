@@ -15,4 +15,4 @@ python3 train.py \
 --hyp data/hyps/hyp.scratch.yaml \
 --cfg ./models/yolov5s.yaml \
 --weights yolov5s.pt \
---name yolov5s_cap_results_v2 \
+--name yolov5s_cap_results_v2_iteration1_smallModel_adam_freezeBackbone \
