@@ -374,3 +374,47 @@ Speed: 0.4ms pre-process, 10.1ms inference, 0.5ms NMS per image at shape (1, 3, 
 Results saved to runs/detect/yolov5m_test_results_from_images_with_landfill_predicted_india
 
 https://github.com/UCBMethaneTracker/UCB-Capstone-Methane-Tracker/tree/main/yolo_v5/yolov5/runs/detect/yolov5m_test_results_from_images_with_landfill_predicted_india
+
+
+--------------
+
+## large model 
+## non-mns=1
+## unfreeze backbone
+
+     Epoch   gpu_mem       box       obj       cls    labels  img_size
+   122/299     1.92G   0.02096  0.004664         0         3       512: 100%|█| 162/162 [00:20<00:00,  8.04it/s]
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 9/9 [00:01<00:00
+                 all        135        135      0.337        0.2      0.199     0.0784
+EarlyStopping patience 100 exceeded, stopping training.
+
+123 epochs completed in 0.798 hours.
+Optimizer stripped from runs/train/yolov5l_cap_results/weights/last.pt, 92.8MB
+Optimizer stripped from runs/train/yolov5l_cap_results/weights/best.pt, 92.8MB
+
+Validating runs/train/yolov5l_cap_results/weights/best.pt...
+Fusing layers...
+Model Summary: 367 layers, 46108278 parameters, 0 gradients, 107.8 GFLOPs
+               Class     Images     Labels          P          R     mAP@.5 mAP@.5:.95: 100%|█| 9/9 [00:02<00:00
+                 all        135        135       0.42      0.274      0.293     0.0951
+                 
+wandb: Run summary:
+wandb:        metrics/mAP_0.5 0.19934
+wandb:   metrics/mAP_0.5:0.95 0.07839
+wandb:      metrics/precision 0.33734
+wandb:         metrics/recall 0.2
+wandb:         train/box_loss 0.02096
+wandb:         train/cls_loss 0.0
+wandb:         train/obj_loss 0.00466
+wandb:           val/box_loss 0.0611
+wandb:           val/cls_loss 0.0
+wandb:           val/obj_loss 0.0145
+wandb:                  x/lr0 0.00685
+wandb:                  x/lr1 0.00685
+wandb:                  x/lr2 0.00685
+wandb:
+wandb: Synced 5 W&B file(s), 145 media file(s), 1 artifact file(s) and 1 other file(s)
+wandb: Synced yolov5l_cap_results: https://wandb.ai/sonyasonya345/YOLOv5/runs/mqnmdw0t
+wandb: Find logs at: ./wandb/run-20211212_051902-mqnmdw0t/logs/debug.log
+wandb:
+Results saved to runs/train/yolov5l_cap_results
